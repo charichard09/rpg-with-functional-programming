@@ -46,7 +46,11 @@ KO Ask Yourself:
 
 [x] Is there other code this application depends on?
 
-_{Epicodus recommends deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Installing all packages with $ npm install.
+* Building the project using webpack with $ npm run build
+* Starting a development server with $ npm run start
+* Linting JS files in the src folder with $ npm run lint
+* Running tests with Jest using $ npm run test
 
 ## Known Bugs
 
