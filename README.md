@@ -6,9 +6,14 @@
 
 ## Technologies Used
 
-* Technology1 
-* Technology2 
-* Technology3
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* Nade.js
+* 
+* Jest
+* Babel
 
 ## Description
 
