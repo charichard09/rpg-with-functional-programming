@@ -11,7 +11,6 @@
 * Bootstrap
 * JavaScript
 * Nade.js
-* 
 * Jest
 * Babel
 
