@@ -1,6 +1,6 @@
 # Functional Role Playing Game
 
-#### By Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott
+#### By Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott, Alex Johnson, Daniel Yakovlev
 
 #### A role playing game built using functional programming
 
@@ -29,6 +29,7 @@ Logic could include the following:
     * Genius 0 > 10
     * Self-Assured 0 > 10
     * Mean 0 > 10
+  
   Types of character:
     * Athletes
     * Band Kids
@@ -121,7 +122,7 @@ $ npm run test
 
 MIT License
 
-Copyright (c) 2022 Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott
+Copyright (c) 2022 Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott, Alex Johnson, Daniel Yakovlev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
