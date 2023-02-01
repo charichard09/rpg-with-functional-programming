@@ -17,17 +17,50 @@
 
 ## Description
 
-Build and fully unit test the business logic for a Medieval Role Playing Game (or another genre that you prefer: sci-fi, cyberpunk, '80's high school).
+Build and fully unit test the business logic for a Social Role Playing Game.
 
 Logic could include the following:
 
-* Character creation: Use composition to generate different character types. Be creative with your character types... warriors, wizards, scientists, prom queen... whatever! Characters should have specific attributes. For instance, in a medieval RPG, characters might have strength and intelligence attributes among others. In an '80's high school RPG, characters might have snark and charm. You can add and even update these attributes using composition.
+* __Character creation__: Use composition to generate different character types. 
+  Attributes all characters have:
+    * Active 0 > 10 
+    * Goofball 0 > 10
+    * Creative 0 > 10
+    * Genius 0 > 10
+    * Self-Assured 0 > 10
+    * Mean 0 > 10
+  Types of character:
+    * Athletes
+    * Band Kids
+    * Thespians (theatre)
+    * Nerds
+    * Rebels
+    * Mean Girls
 
-* Battle system: Many RPGs have a battle system so characters can fight monsters, though that could just as easily be a high school “battle” system where the prom queen has a dance-off with the theater aficionado. Determine conditions for "winning" a battle, whether that's defeating monsters (with swords and spells doing damage), accumulating dance-off style points, or any other system you think of.
+You can add and even update these attributes using __composition__.
 
-* Level up: Determine a leveling system. Characters should be able to go from Level 1 to Level 2 and so on. Generally each level comes with new abilities. How do characters level up in your game? What attributes and powers do they gain? Does their strength go up or do they learn new spells? You will need to use some object-oriented programming to complete this objective — characters can be individual objects with their own set of attributes.
+* __'Battle system__: Each character has **Social** attribute, which increases or decrease based on the outcome of the connection.
 
-* Inventory: Characters should be able to have items that enhance their abilities. Maybe the Magic Armor increases their defense power or legwarmers increase their dance-off ability. Create a limit to the number of items a character can have. Characters should be able to add, drop, buy and sell items.
+    **Structure**
+    Question
+    (based on character)
+    Answer | bad // good // great answer
+    Outcome -> __social__ pts up or down by X
+
+* __Level up__: If you __social__ level is 100, you are prom. 
+
+<!-- You will need to use some object-oriented programming to complete this objective — characters can be individual objects with their own set of attributes. -->
+
+* __Inventory__: Characters should be able to have items that enhance their abilities. Characters start out with X money and one thing in inventory that increase their character attributes when used.
+  * Car 
+  * Pool
+  * Drugs
+  * Gameboy
+  * Walkman
+  * Flute
+
+Create a limit to the number of items a character can have. Characters should be able to add, drop, buy and sell items.
+
 ### Objectives (MVP)
 
 <!-- [x] Screenshots
@@ -37,9 +70,10 @@ Logic could include the following:
 <!-- [Link to operational site](http://www.kirstenopstad.github.com/<REPOSITORY NAME>) -->
 
 ### Goals
-1. Goal1
-2. Goal2
-3. Goal3
+1. Implement Character Creation
+2. Implement Battle functionality
+3. Implement Invetory
+4. Create simple UI
 
 ## Setup/Installation Requirements
 
