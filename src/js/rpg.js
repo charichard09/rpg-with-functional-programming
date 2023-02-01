@@ -20,9 +20,22 @@ const changeState = (prop) => {
   }
 }
 
+const replaceStateValue = (prop) => {
+  return (value) => {
+    return (state) => ({
+      ...state,
+      [prop] : value
+    })
+  }
+}
+
+
+
+function isString(input) {}
 
 // init character
-const character = stateControl(changeState("name")(1));
+// const character = stateControl(changeState("name")(1));
+// character("BigDeeps")
 
 // add character attribute functions
 const addActive = stateControl(changeState("active")(1));
@@ -48,13 +61,24 @@ function playGame() {
   return stateControl();
 }
 
-module.exports = playGame;
 
 // UI logic
 window.onload = function() {
-  document.getElementById("create-char").onclick = () => {
-    const newState = character;
-    document.getElementById("name").innerText = `Name: ${newState.name}`;
-    console.log("we're reaching the right place lol");
+  // e.preventDefault();
+  document.getElementById("create-char").onsubmit = (e) => {
+    e.preventDefault();
+    let charName = document.getElementById("char-name").innerText;
+    const character = { ...stateControl(), name: charName };
+    document.getElementById("name").innerText = `Name: ${character.name}`;
+  }
+
+  document.getElementById("add-active").onclick = () => {
+    addActive();
+    console.log(character);
   }
 }
+
+
+// ALWAYS STAYS AT THE BOTTOM
+// STARTS FROM THE BOTTOM AND STAYS THERE
+module.exports = playGame;
