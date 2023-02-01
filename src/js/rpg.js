@@ -35,7 +35,8 @@ const addMean = stateControl(changeState("mean")(1));
 function playGame() {
   // create & store character in stateControl
   character;
-  
+  // let counter = 0;
+  // recursively listen for user input to add attribute values
   // based on user input update character attributes
   addActive;
   addGoofball;
@@ -48,3 +49,12 @@ function playGame() {
 }
 
 module.exports = playGame;
+
+// UI logic
+window.onload = function() {
+  document.getElementById("create-char").onclick = () => {
+    const newState = character;
+    document.getElementById("name").innerText = `Name: ${newState.name}`;
+    console.log("we're reaching the right place lol");
+  }
+}
