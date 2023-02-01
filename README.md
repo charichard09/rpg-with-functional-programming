@@ -1,8 +1,8 @@
-# TEMPLATE
+# Functional Role Playing Game
 
-#### By Kirsten Opstad
+#### By Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott
 
-#### A template for writing a README.md
+#### A role playing game built using functional programming
 
 ## Technologies Used
 
@@ -12,9 +12,22 @@
 * JavaScript
 * webpack
 * Node.js
+* Jest
+* Babel
 
 ## Description
 
+Build and fully unit test the business logic for a Medieval Role Playing Game (or another genre that you prefer: sci-fi, cyberpunk, '80's high school).
+
+Logic could include the following:
+
+* Character creation: Use composition to generate different character types. Be creative with your character types... warriors, wizards, scientists, prom queen... whatever! Characters should have specific attributes. For instance, in a medieval RPG, characters might have strength and intelligence attributes among others. In an '80's high school RPG, characters might have snark and charm. You can add and even update these attributes using composition.
+
+* Battle system: Many RPGs have a battle system so characters can fight monsters, though that could just as easily be a high school “battle” system where the prom queen has a dance-off with the theater aficionado. Determine conditions for "winning" a battle, whether that's defeating monsters (with swords and spells doing damage), accumulating dance-off style points, or any other system you think of.
+
+* Level up: Determine a leveling system. Characters should be able to go from Level 1 to Level 2 and so on. Generally each level comes with new abilities. How do characters level up in your game? What attributes and powers do they gain? Does their strength go up or do they learn new spells? You will need to use some object-oriented programming to complete this objective — characters can be individual objects with their own set of attributes.
+
+* Inventory: Characters should be able to have items that enhance their abilities. Maybe the Magic Armor increases their defense power or legwarmers increase their dance-off ability. Create a limit to the number of items a character can have. Characters should be able to add, drop, buy and sell items.
 ### Objectives (MVP)
 
 <!-- [x] Screenshots
@@ -74,7 +87,7 @@ $ npm run test
 
 MIT License
 
-Copyright (c) 2022 Kirsten Opstad
+Copyright (c) 2022 Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
