@@ -2,7 +2,7 @@
 
 #### By Kirsten Opstad, Richard Cha, Aitana Shough, Robert Onstott, Alex Johnson, Daniel Yakovlev
 
-#### A role playing game built using functional programming
+#### A role playing game built using functional programming really well
 
 ## Technologies Used
 
